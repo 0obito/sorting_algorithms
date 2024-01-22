@@ -15,13 +15,15 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * Lomuto_partition - a function that implements
+ * lomuto_partition - a function that implements
  * the Lomuto partition scheme.
  *
  * @array: points to the array used for partition.
  * @size: array's size.
  * @left: The starting index of the array partition to order.
  * @right: The ending index of the array partition to order.
+ *
+ * Return: returns above.
  */
 int lomuto_partition(int *array, size_t size, int left, int right)
 {
